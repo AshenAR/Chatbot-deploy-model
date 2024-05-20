@@ -7,7 +7,7 @@ import pickle
 app = Flask(__name__)
 
 # Load the trained model
-model = load_model('my_model.keras')
+model = load_model('my_model (2).keras')
 
 # Load the tokenizer
 with open('tokenizer.pickle', 'rb') as handle:
